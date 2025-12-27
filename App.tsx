@@ -41,8 +41,8 @@ const App: React.FC = () => {
         {/* Header Title for Setup */}
         {phase === 'setup' && (
           <div className="text-center mb-12">
-            <h1 className="text-5xl md:text-6xl font-black text-white drop-shadow-md tracking-tight mb-2">Parents' Evening</h1>
-            <p className="text-xl text-white/90 font-medium">Home Edition</p>
+            <h1 className="text-5xl md:text-6xl font-black text-purple-600 drop-shadow-md tracking-tight mb-2">Parents' Evening</h1>
+            <p className="text-xl text-purple-400 font-medium">Home Edition</p>
           </div>
         )}
 
